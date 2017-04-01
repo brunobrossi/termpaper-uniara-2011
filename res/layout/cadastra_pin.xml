@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView android:id="@+id/textpin1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Cadastro de Usuário"
+		android:typeface="sans" android:gravity="center" />
+
+	<TextView android:id="@+id/textpin2" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Cadastrar o usuário de login criado na pagina web."
+		android:typeface="sans" android:gravity="center" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=" "
+		android:typeface="sans" android:gravity="center" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=" "
+		android:typeface="sans" android:gravity="center" />
+
+	<TextView android:id="@+id/textpin3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Usuário *" />
+
+	<EditText android:id="@+id/editpin1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Usuário"
+		android:textSize="18sp" />
+
+	<Button android:id="@+id/botaopin1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Cadastrar"
+		android:onClick='cadastraUsuario' />
+</LinearLayout>

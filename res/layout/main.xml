@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/botaomain">
+<TextView
+android:id="@+id/textmain"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Iniciar para começar a Captura de Dados:"
+android:typeface="sans"
+android:gravity="center"
+>
+</TextView>
+<ImageView
+android:id="@+id/imagemain"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/capa"
+>
+</ImageView>
+<Button
+android:id="@+id/botao"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Iniciar"
+android:onClick='iniciaRastreio'
+
+ >
+</Button>
+</LinearLayout>
